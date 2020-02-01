@@ -29,6 +29,12 @@ public class Childrensgift {
 		Othergifts other=new Othergifts();
 		other.Giftssetter(gifts);
 		System.out.println(other.Giftsgetter());
+		
+		int length=0;
+		for(String s:gifts)
+			if(s!=null)
+				length++;
+		System.out.println("\n\nTotal Number of NEW YEAR's GIFTS = "+length);
 	}
 
 }
